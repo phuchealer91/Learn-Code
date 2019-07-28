@@ -1,0 +1,48 @@
+.khoa-hoc-content{
+    margin-top: 5rem;
+    text-align: center;
+}
+.khoa-hoc-content h2{
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+.khoa-hoc-content p{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 200;
+    padding: 0 1rem 2rem;
+    /* margin-bottom: 3rem; */
+}
+.khoa-hoc-item img{
+    width: 100%;
+    height: auto;
+}
+.khoa-hoc-item{
+    transition: 0.5s;
+}
+.khoa-hoc-text{
+    padding-bottom: 3.5rem;
+}
+.khoa-hoc-item h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+.khoa-hoc-item .click-me{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: .7rem 2.5rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(128, 128, 128);
+    text-decoration: none;
+    outline: 0;
+    position: relative;
+    z-index: 2;
+    color: rgb(71, 71, 71);
+}
+.khoa-hoc-item:hover{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.5);
+    transform: translateY(-0.9rem);
+}

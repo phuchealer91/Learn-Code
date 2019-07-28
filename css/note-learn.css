@@ -1,0 +1,42 @@
+.note-learn{
+    background: #000;
+    color: white;
+    padding: 8rem 0;
+}
+.note-learn-list .note-item{
+    width: 10rem;
+    padding: 0.8rem 0;
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    list-style-type: none;
+    margin-right: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.note-learn-list ul{
+    padding: 0;
+    margin: 0;
+}
+.note-learn-list .note-item.active{
+    background: #fff;
+    color: #000;
+}
+/* note-content */
+/* .note-content{
+    padding: 3rem 0;
+} */
+img{
+    width: 100%;
+    height: auto;
+}
+.text-content{
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+}
+.active-tab {
+    background: #fff;
+    color: #000;
+}

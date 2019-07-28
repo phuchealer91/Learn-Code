@@ -1,0 +1,12 @@
+.about{
+    background: url('../images/bg-1.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 8rem;
+    padding: 8rem 0;
+}
+.about-content{
+    text-align: center;
+    color: white;
+}

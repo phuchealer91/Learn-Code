@@ -1,0 +1,85 @@
+.list-languge{
+    padding: 8rem 0;
+}
+.list-item{
+    padding: 2rem 0;
+    margin: 0 2rem;
+    width: 15rem;
+    border: 1px dashed #ccc;
+}
+.list-item h4{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.list-item p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+/* list-tick */
+.list-tick {
+    margin: 5rem 0;
+}
+.list-tick .bg{
+    position: relative;
+    border-radius: .5rem;
+    padding: 7rem 6rem;
+}
+
+.list-tick img{
+    max-width: 10rem;
+}
+.tick-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.tick-content div{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.tick-content a{
+    color: white;
+    text-decoration: none;
+    z-index: 1000;
+    opacity: 0;
+}
+.tick-content div:after,.tick-content div:before,.tick-content div{
+    opacity: 0;
+    transition: 0.25s;
+    transition-delay: 0.15s;
+}
+.tick-content div:after{
+    content: "";
+    position: absolute;
+    top: 4rem;
+    bottom: 4rem;
+    right: 2rem;
+    left: 2rem;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: scale(0,1);
+    transform-origin: 0 100%;
+}
+.tick-content div:before{
+    content: "";
+    position: absolute;
+    top: 2rem;
+    bottom: 2rem;
+    right: 4rem;
+    left: 4rem;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: scale(1,0);
+    transform-origin: 100% 0;
+}
+.tick-content div:hover, .tick-content div:hover:after,.tick-content div:hover:before{
+    opacity: 1;
+    transform: scale(1);
+}
+.tick-content a{
+    opacity: 1;
+}

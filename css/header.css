@@ -1,0 +1,96 @@
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: 1000; */
+    background-attachment: fixed;    /* padding: 20rem 0; */
+
+}
+.navbar{
+    z-index: 1000;
+}
+.nav-item{
+    margin: 0 1.5rem;
+}
+.navbar-brand{
+    padding: 1rem 2rem;
+}
+nav.black{
+    
+    background: rgba(0,0,0,0.3);
+    height: 5rem;
+    width: 100%;   
+    position: fixed;
+}
+.navbar-brand, a {
+    color: white;
+    font-size: 1.8rem;
+}
+.dropdown-item{
+
+    color: black;
+}
+/* .header-img{
+    width: 100%;
+    position: relative;
+} */
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header-content h2,.about-content h2{
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem 0;
+}
+.header-content p,.about-content p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    padding: 1.2rem 0;
+}
+.line-black{
+    height: 0.1rem;
+    width: 8rem;
+    background:white;
+    text-align: center;
+    margin: 0 auto 4rem;
+}
+.header-content .click-me{
+    font-size: 1.5rem;
+    outline: none;
+    font-weight: bold;
+    padding: .7rem 2.5rem;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    position: relative;
+    border-radius: .5rem;
+    z-index: 2;
+    cursor: pointer;
+    color: white;
+}
+.header-content .click-me:before,.khoa-hoc-item .click-me:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(151, 150, 150, 0.3);
+    transition: .5s;
+}
+.header-content .click-me:hover:before,.khoa-hoc-item .click-me:hover:before{
+    width: 100%;
+}

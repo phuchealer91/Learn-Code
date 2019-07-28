@@ -1,14 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/seris.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/image-album.css">
+    <link rel="stylesheet" href="./css/note-learn.css">
+    <link rel="stylesheet" href="./css/list-languge.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
     <title>Learn Code</title>
 </head>
+
 <body>
-    
+    <!-- Header -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">PHUCTAI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                  </form> -->
+            </div>
+        </nav>
+    </div>
+    <!-- End header -->
+    <div class="header-img">
+        <div class="header-content text-content">
+            <h2>Welcome to soc trang</h2>
+            <p>Ẩm thực đồng quê, miền tây sông nước</p>
+            <p>Đậm đà bản sắc quê hương</p>
+            <div class="line-black"></div>
+            <a href="#" class="click-me">SIGN UP</a>
+        </div>
+    </div>
+    <!-- Khoa hoc -->
+    <div class="khoa-hoc-content">
+        <div class="container text-center">
+            <h2>Khóa học</h2>
+            <p>Cứ cố gắng một ngày nào đó bạn sẽ thành công !</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="khoa-hoc-item">
+                        <img src="./images/html-illustration.png" alt="html" class="item-img">
+                        <div class="khoa-hoc-text">
+                            <h3>Khóa học về HTML</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quod sint obcaecati eligendi
+                                perferendis? Temporibus, doloremque accusamus illo aut, quibusdam voluptas fugit sint cum
+                                architecto, consequatur aspernatur sunt ab. Placeat.</p>
+                            <a href="#" class="click-me">Xem Thêm</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="khoa-hoc-item">
+                        <img src="./images/css-illustration.png" alt="html" class="item-img">
+                        <div class="khoa-hoc-text">
+                        <h3>Khóa học về CSS</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam labore repellendus, officia
+                            assumenda velit odit praesentium neque blanditiis? Totam libero ab nam pariatur repellat
+                            corporis eaque temporibus amet, suscipit similique.</p>
+                        <a href="#" class="click-me">Xem Thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="khoa-hoc-item">
+                        <img src="./images/jquery-illustration.png" alt="html" class="item-img">
+                        <div class="khoa-hoc-text">
+                        <h3>Khóa học về JQUERY</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est error dolore quaerat similique
+                            repellat sapiente dignissimos exercitationem quo animi unde omnis deleniti facilis impedit
+                            enim, magnam possimus beatae modi tempore.</p>
+                        <a href="#" class="click-me">Xem Thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div class="about">
+        <div class="container about-content">
+            <h2>rất vui khi được làm việc cùng các bạn</h2>
+            <p>I hope will many moeny in the feture</p>
+        </div>
+    </div>
+    <!-- list item -->
+    <div class="list-languge">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center mb-5 flex-wrap">
+                <div class="list-item text-center">
+                    <h4>69</h4>
+                    <p>Video</p>
+                </div>
+                <div class="list-item text-center">
+                    <h4>1M+</h4>
+                    <p>VND</p>
+                </div>
+                <div class="list-item text-center">
+                    <h4>1</h4>
+                    <p>Happy day</p>
+                </div>
+            </div>
+            <!-- list-tick -->
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="list-tick text-center">
+                        <div class="bg-danger bg">
+                            <img src="./images/i-html.png" alt="html">
+                            <div class="tick-content">
+                                <div class=" d-flex justify-content-center align-items-center">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="list-tick text-center">
+                        <div class="bg-primary bg">
+                            <img src="./images/i-css.png" alt="html">
+                            <div class="tick-content">
+                                <div class=" d-flex justify-content-center align-items-center">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="list-tick text-center">
+                        <div class="bg-warning bg">
+                            <img src="./images/i-res.png" alt="html">
+                            <div class="tick-content">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="list-tick text-center">
+                        <div class="bg-success bg">
+                            <img src="./images/i-tag.png" alt="html">
+                            <div class="tick-content">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Note learn -->
+    <div class="note-learn">
+        <div class="container"> 
+            <div class="note-learn-list mb-5">
+                <ul class="d-flex">
+                    <li class="note-item " data-tab="tab-content-1">HTML</li>
+                    <li class="note-item" data-tab="tab-content-2">CSS</li>
+                    <li class="note-item" data-tab="tab-content-3">BOOTSTRAP</li>
+                    <li class="note-item" data-tab="tab-content-4">JQUERY</li>
+                </ul>             
+            </div>
+            <div id="tab-content-1" class="note-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam neque omnis praesentium molestias. Non iusto laboriosam nulla, libero incidunt magni repellendus fugit quia nesciunt voluptates quo reprehenderit eos, voluptatibus animi?
+                            </div>
+                        </div>
+                            <div class="col-lg-6">
+                                <img src="./images/html-illustration.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <div id="tab-content-2" class="note-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam neque omnis praesentium molestias. Non iusto laboriosam nulla, libero incidunt magni repellendus fugit quia nesciunt voluptates quo reprehenderit eos, voluptatibus animi?
+                            </div>
+                        </div>
+                            <div class="col-lg-6">
+                                <img src="./images/css-illustration.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <div id="tab-content-3" class="note-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam neque omnis praesentium molestias. Non iusto laboriosam nulla, libero incidunt magni repellendus fugit quia nesciunt voluptates quo reprehenderit eos, voluptatibus animi?
+                            </div>
+                        </div>
+                            <div class="col-lg-6">
+                                <img src="./images/jquery-illustration.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <div id="tab-content-4" class="note-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam neque omnis praesentium molestias. Non iusto laboriosam nulla, libero incidunt magni repellendus fugit quia nesciunt voluptates quo reprehenderit eos, voluptatibus animi?
+                            </div>
+                        </div>
+                            <div class="col-lg-6">
+                                <img src="./images/css-illustration.png" alt="">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- image ablum -->
+    <div class="img-album">
+        <h2>album image soc trang</h2>
+        <p>Ảnh mang đến nguồn sức sống mãnh liệt Ahihii</p>
+        <div class="row row-album">
+            <div class="col-md-3 col-sm-6 ">
+                <img src="./images/1.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="./images/2.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="./images/22.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="./images/pexels-photo-54380.jpeg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="./images/ppp-teaser-1.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="./images/phum-baitang-teaser.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="./images/further-rio-800x800.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="./images/king-s-social-house-2_crop.JPG" alt="">
+            </div>   
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="google-map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="footer-content">
+                        <h2>TP. Soc Trang</h2>
+                        <span>- Lorem ipsum dolor sit amet.</span>
+                        <span>- Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                        <span>- Lorem ipsum dolor sit.</span>
+                        <span>- Lorem ipsum dolor sit.</span>
+                        <span>- Lorem ipsum dolor sit.</span>
+                        <span>- Lorem ipsum dolor sit amet.</span>
+                        <span>- Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                        <span>- Lorem ipsum dolor sit.</span>
+                        <span>- Lorem ipsum dolor sit.</span>
+                        <span>- Lorem ipsum dolor sit.</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d503557.9975492206!2d105.64610044723423!3d9.591229718351341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a05209a25f8e21%3A0xd673966a4a960a4e!2zU8OzYyBUcsSDbmcsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1564285393103!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>By Phuc Tai</p>
+    </div>
+
+
+    <script>
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        }); 
+        $(document).ready(function(){
+            var i = 0;
+                $('.note-content').hide();
+                $('.note-content').eq(i).show();
+                $('.note-item').eq(i).addClass('active-tab');
+                
+                $('.note-item').click(function() {
+                    $('.note-item').removeClass('active-tab');
+                    $(this).addClass('active-tab');
+                    
+                    var tab = $(this).attr('data-tab');
+                    $('.note-content').hide();
+                    $("#"+tab).fadeIn();
+                });
+        });
+   
+    </script>
 </body>
+
 </html>
